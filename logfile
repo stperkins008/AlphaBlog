@@ -1,0 +1,11 @@
+2017-11-25 13:16:01.085 EST [8299] LOG:  listening on IPv6 address "::1", port 5432
+2017-11-25 13:16:01.085 EST [8299] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2017-11-25 13:16:01.086 EST [8299] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2017-11-25 13:16:01.095 EST [8300] LOG:  database system was shut down at 2017-11-25 13:15:47 EST
+2017-11-25 13:16:01.100 EST [8299] LOG:  database system is ready to accept connections
+2017-11-25 13:16:11.200 EST [8320] FATAL:  database "my_database_development" does not exist
+2017-11-25 13:16:12.722 EST [8321] FATAL:  database "my_database_development" does not exist
+2017-11-25 13:18:49.228 EST [8763] FATAL:  database "my_database_development" does not exist
+2017-11-25 13:23:01.954 EST [8868] FATAL:  database "my_database_development" does not exist
+2017-11-25 13:24:28.333 EST [8906] ERROR:  syntax error at or near "." at character 26
+2017-11-25 13:24:28.333 EST [8906] STATEMENT:  CREATE DATABASE "db/test"."sqlite3" ENCODING = 'utf8'
